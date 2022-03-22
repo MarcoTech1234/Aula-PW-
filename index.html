@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +8,26 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <title>Document</title>
 </head>
+
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-sm-8 col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam eius nesciunt magni, harum totam, saepe laboriosam iusto explicabo ut quibusdam iure corrupti amet dicta molestias minima deserunt quia nulla?</div>
-            
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand">Brand</a>
+        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+        <div id="my-nav" class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Item 1 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Item 2</a>
+                </li>
+            </ul>
         </div>
-        <div class="row mt-3">
-        <div class="col-12 col-sm-8 col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea omnis laboriosam consequatur quas iste libero nam corrupti praesentium facilis tempore. Quia sunt libero vero impedit voluptatum tempora nulla fuga quod.</div>
-        </div>
-    </div>
+    </nav>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.js"></script>
 </body>
+
 </html>
