@@ -1,0 +1,6 @@
+.bg-marco {
+    background-image: url(../img/paisagem-espaco.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
