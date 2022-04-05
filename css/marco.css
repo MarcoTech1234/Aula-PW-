@@ -4,3 +4,7 @@
     background-position: center;
     height: 100vh;
 }
+
+.bg-linear {
+    background-image: linear-gradient(to left top, #2d3436, #636e72);
+}
