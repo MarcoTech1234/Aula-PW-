@@ -8,3 +8,14 @@
 .bg-linear {
     background-image: linear-gradient(to left top, #2d3436, #636e72);
 }
+
+#fac {
+    font-size: 5vh;
+    transition: 0.3s;
+}
+
+#fac:hover {
+    font-size: 5vh;
+    transition: 0.3s;
+    color: aqua
+}
